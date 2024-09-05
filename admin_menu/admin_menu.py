@@ -2,10 +2,8 @@ from aiogram import Bot, Dispatcher
 from aiogram.filters import BaseFilter, CommandStart
 from aiogram.types import Message
 
-
-
-from ..sourse_global.bot_token import BOT_TOKEN
-
+from bot_token import BOT_TOKEN
+from telegram_id import TELEGRAM_ID
 
 
 
